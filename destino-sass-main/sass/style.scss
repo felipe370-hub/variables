@@ -1,0 +1,23 @@
+@use 'variables';
+@use 'mixins' as mx;
+
+
+.container{
+    width: 100%;
+    max-width: variables.$container;
+}
+
+
+header{
+    background-color: variables.$primary-color; 
+
+    .nav{
+        @include mx.displayflex('32px', space-between);
+        
+    }
+    img{
+        width: 232px;
+        height: 60px;
+
+    }
+}
