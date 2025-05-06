@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  max-width: 1205px;
+}
+
+header {
+  background-color: #550fed;
+}
+header .nav {
+  display: flex;
+  gap: "32px";
+  justify-content: center;
+  align-items: center;
+}
+header .nav ul {
+  display: flex;
+  gap: 72px;
+  justify-content: center;
+  align-items: center;
+}
+header .nav ul a {
+  color: #c8c2d6;
+}
+header .nav ul a:hover {
+  color: #1e1e1e;
+}
+header .search {
+  width: 100px;
+  max-width: 843px;
+  margin: auto 0px;
+  padding: 100px 64px;
+}
+header .search h2 {
+  color: #f2f4f5;
+  text-align: center;
+}
+header .search form {
+  background-color: #1fFfff;
+  border-radius: 8px;
+}
+header img {
+  width: 232px;
+  height: 60px;
+}
+header .main h1 {
+  padding-top: 10px;
+}
+header .main .state .tag {
+  padding: 8px;
+  border-radius: 8px;
+}/*# sourceMappingURL=style.css.map */

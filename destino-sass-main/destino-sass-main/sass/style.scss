@@ -1,0 +1,76 @@
+@use 'variables' as var;
+@use 'mixins' as mx;
+
+
+.container{
+    width: 100%;
+    max-width: var.$container;
+   
+}
+
+
+header{
+    background-color: var.$primary-color; 
+
+    .nav{
+        @include mx.displayflex('32px', space-between);
+        ul{
+            @include mx.displayflex(72px, center);
+
+            a{
+                color: var.$border;
+                
+                &:hover{
+                color:var.$black;
+                }
+            }
+        }
+    }
+
+    .search{
+        
+        width: 100px;
+        max-width: 843px; 
+        margin: auto 0px;
+        padding: 100px 64px;
+        
+
+        h2{
+            color:var.$background;
+            text-align: center;
+        }
+        form{
+            background-color: #1fFfff;
+            border-radius: 8px;
+        }
+    }
+
+    
+
+
+    img{
+        width: 232px;
+        height: 60px;
+
+    }
+    .main{
+        h1{ 
+            padding-top: 60px;
+             
+
+
+
+        }
+        .state{
+
+            .tag {
+                padding:8px ;
+                border-radius: 8px;
+                color:var.$primary-color;
+                background-color: var.$secondary-color;
+                display: inline-block;
+
+        } 
+    }
+}
+}
